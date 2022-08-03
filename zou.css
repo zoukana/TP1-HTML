@@ -1,0 +1,36 @@
+.img{
+    width: 100%;
+    height: 400px;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+body{
+    background-color:red;
+}
+
+.bloc{
+    border: 1px solid black;
+    width: 40%;
+    height: 100px;
+    background-color: blue;
+    margin: 10px;
+}
+
+#conteneur{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+}
+
+span{
+    writing-mode: vertical-rl;
+    margin: 30px 250px;
+    font-weight: bold;
+}
+
+
+
