@@ -1,28 +1,28 @@
 .img{
     width: 100%;
-    height: 400px;
+    height: 300px;
 }
 h2{
     color: white;
     text-align: center;
-    font-size: 24px;
 }
 body{
-    background-color:red;
+    background-color:blue;
+    margin: 0;
 }
 
 .bloc{
     border: 1px solid black;
-    width: 40%;
+    padding: 30px;
     height: 100px;
-    background-color: blue;
+    background-color: aqua;
     margin: 10px;
 }
 
 #conteneur{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: flex;/*pour faire l'agencement des bmoc*/
+    flex-wrap: wrap;/*pour que l'agencement se face de facon a aller a la ligne*/ 
+    justify-content: center;/*pour centraliser l'écriture qui se trouve sur ls bloc*/
  
 }
 
@@ -30,7 +30,80 @@ span{
     writing-mode: vertical-rl;
     margin: 30px 250px;
     font-weight: bold;
+    text-align: center;
+    }
+#button{
+    background-color: white;
+    margin-left: 45%;
+    border-radius: 60px;
+    padding: 07px;
 }
+#bouton{
+    width: 20%;
+    margin-left: 200px;
+    background-color:aqua ;
+    border-radius: 60px;
+    padding: 7px;
+}
+p{
+    text-align: center;
+    font-size: 34px;
+    color: white;
+}
+#inscription{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+#pseudo{
+height: 50%;
+}
+form{
+display: flex;
+flex-direction: column;
+width: 40%;
+height: 100px;
+}
+label{
+    text-align: center;
+    font-size: 20px;
+    height: 10px;
+    color: white;
+}
+#class1,#class2,#class3,#class4{
+    border-radius: 10px;
+    padding: 10px;
+}
+@media (max-width: 700px) {
+    .bloc{
+        flex-direction: column;
+        width: 100%;
+        height: 20px;
+        margin: 10px;
+        padding: 10px;
+    }
+    .img{
+        width: 100%;
+        height: 150px;
+       }
+    span{
+        writing-mode: horizontal-tb;
+        margin: 5px;
+    }
+    #button{
+        margin-left: 40%;
+
+    }
+    h2{
+        font-size: 18px;
+    }
+}
+h4{
+   margin-top: 230px;
+   margin-left: 55%;
+}
+
 
 
 

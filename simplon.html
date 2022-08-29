@@ -8,18 +8,40 @@
 
     <link rel="stylesheet" href="zou.css">
     <title>SIMPLON</title>
+   
 </head>
 
 <body>
     <img class="img" src="téléchargement.png" alt="simplonsénégal">
     <h2>Mon premier TP:Assane DIALLO</h2>
     <div id="conteneur">
-        <div class="bloc"><span>bloc1</span></div>
-        <div class="bloc"><span>bloc1</span></div>
-        <div class="bloc"><span>bloc1</span></div>
-        <div class="bloc"><span>bloc1</span></div>
+        <div class="bloc" id="ff"><span id="color1">bloc1</span></div>
+        <div class="bloc" id="pp"><span id="color2">bloc2</span></div>
+        <div class="bloc" id="ll"><span id="color3">bloc3</span></div>
+        <div class="bloc" id="ii"><span id="color4">bloc4</span></div>
 
     </div>
+         <button id="button" onclick="changecouleur()">CHANGEMENT</button>
+         <br>
+         <br>
+        <p><strong>FORMULAIRE</strong></p>
+        <div id="inscription">
+            <form method="post" id="loginform">
+                
+                <label for="name"><strong>prénom</strong> </label><br>
+                <input type="text" value="" placeholder="prenom" id="class1"><br>
+                <label for="name"><strong>Nom</strong> </label><br>
+                <input type="text" value="" placeholder="nom" id="class2"><br>
+                <label for="name"><strong>Email</strong> </label><br>
+                <input type="email" value="" placeholder="email" id="class3" ><br>
+                <label for="name"><strong>Tel</strong> </label><br>
+                <input type="tel" value="" placeholder="telephone" id="class4" ><br>
+                <input type="submit" value="ENVOYER" onclick="" id="bouton">
+           </form>
+           <br>
+        </div>
+        <h4 style="color: red;" id="erreur"></h4>
+    <script src="java.js"></script>
 </body>
 
 </html>
